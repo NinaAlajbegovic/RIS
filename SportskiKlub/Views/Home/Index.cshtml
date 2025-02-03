@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Početna stranica</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+           <!-- background: linear-gradient(135deg, #1e3c72, #2a5298);-->
+           <!-- background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);-->
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        .u-title {
+            font-size: 3rem;
+            font-weight: bold;
+            background: linear-gradient(90deg, #ff7eb3, #ff758c);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: fadeIn 2s ease;
+        }
+
+        .u-text {
+            font-size: 1.2rem;
+            animation: slideIn 1.5s ease;
+        }
+
+        .u-sheet {
+            margin: 2rem auto;
+            padding: 2rem;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .u-form {
+            margin-top: 1.5rem;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 10px;
+            animation: scaleUp 1.5s ease;
+        }
+
+        .u-label {
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        .u-input {
+            width: 100%;
+            padding: 0.8rem;
+            margin: 0.5rem 0;
+            border: none;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.2);
+            color: #fff;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        .u-input:focus {
+            background: rgba(255, 255, 255, 0.4);
+            box-shadow: 0px 0px 10px #fff;
+        }
+
+        .u-btn {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background: linear-gradient(90deg, #ff758c, #ff7eb3);
+            color: #fff;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.4s ease;
+        }
+
+        .u-btn:hover {
+            transform: scale(1.1);
+            background: linear-gradient(90deg, #ff7eb3, #ff758c);
+            box-shadow: 0px 8px 20px rgba(255, 117, 140, 0.6);
+        }
+
+        .u-backlink {
+            padding: 1rem 0;
+            background: rgba(0, 0, 0, 0.8);
+            color: #bbb;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <section class="u-clearfix u-section-1" id="sec-a5fd">
+        <div class="u-clearfix u-sheet u-sheet-1">
+            <h1 class="u-align-center u-text u-text-default u-title u-text-1">Početna stranica </h1>
+            <p class="u-align-center u-text u-text-default u-text-2">Dobrodošli na našu stranicu! Koristeći formu ispod možete nam poslati poruku. </p>
+            <div class="u-align-center u-form u-form-1">
+                <form action="https://forms.nicepagesrv.com/v2/form/process" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="email" name="form" style="padding: 10px;">
+                    <div class="u-form-group u-form-name">
+                        <label for="name-8fa9" class="u-label">Ime i prezime</label>
+                        <input type="text" placeholder="Unesite svoje ime i prezime" id="name-8fa9" name="name" class="u-input u-input-rectangle" required="">
+                    </div>
+                    <div class="u-form-email u-form-group">
+                        <label for="email-8fa9" class="u-label">Email</label>
+                        <input type="email" placeholder="ime.prezime@size.ba" id="email-8fa9" name="email" class="u-input u-input-rectangle" required="">
+                    </div>
+                    <div class="u-form-group u-form-message">
+                        <label for="message-8fa9" class="u-label">Poruka</label>
+                        <textarea placeholder="Unesite svoju poruku" rows="4" cols="50" id="message-8fa9" name="message" class="u-input u-input-rectangle" required=""></textarea>
+                    </div>
+                    <div class="u-align-center u-form-group u-form-submit">
+                        <a href="#" class="u-btn u-btn-submit u-button-style">Pošalji </a>
+                        <input type="submit" value="submit" class="u-form-control-hidden">
+                    </div>
+                    <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
+                    <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
+                    <input type="hidden" value="" name="recaptchaResponse">
+                    <input type="hidden" name="formServices" value="7a853707-f9a0-dc60-fe8c-c9623caa748f">
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="u-align-center u-clearfix u-container-align-center u-section-2" id="sec-a380">
+        <div class="u-clearfix u-sheet u-sheet-1">
+            <p>Gdje se nalazimo?</p>
+            <div id="map" style="width:100%; height: 500px"></div>
+        </div>
+        <script>
+            var platform = new H.service.Platform({
+                apikey: 'USg_ThZIvwShOTaLXyg6xqMthpymsjhpJrh_C9K74Ek' // Zamjenite sa vašim stvarnim API ključem
+            });
+
+            var defaultLayers = platform.createDefaultLayers();
+
+            var map = new H.Map(document.getElementById('map'),
+                defaultLayers.vector.normal.map,
+                {
+                    center: { lat: 43.9159, lng: 17.6791 },
+                    zoom: 6,
+                    pixelRatio: window.devicePixelRatio || 1
+                }
+            );
+
+            var behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
+            var ui = H.ui.UI.createDefault(map, defaultLayers);
+
+            var zenicaMarker = new H.map.Marker ({ lat: 43.8563, lng: 18.4131 });
+            map.addObject(zenicaMarker);
+        </script>
+    </section>
+
+  
+</body>
+</html>

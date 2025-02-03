@@ -1,0 +1,36 @@
+﻿@model SportskiKlub.Models.Prisustvo
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalji</h1>
+
+<div>
+    <h4>Prisustvo</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.KorisnikID)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.KorisnikID)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TreningID)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TreningID)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Prisutan)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Prisutan)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.PrisustvoID">Uredi</a> |
+    <a asp-action="Index">Povratak</a>
+</div>

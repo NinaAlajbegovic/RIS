@@ -1,0 +1,178 @@
+﻿@model SportskiKlub.Models.Galerija
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Galerija</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin: 2rem 0;
+            color: #ff7eb3;
+        }
+
+        .file-upload-container {
+            display: flex;
+            align-items: center;
+            gap: 1rem; /* Razmak između labela i input polja */
+            margin-bottom: 1.5rem;
+        }
+
+            .file-upload-container label {
+                flex: 0 0 auto;
+                font-weight: bold;
+                color: #ff7eb3;
+            }
+
+        .file-upload {
+            flex: 1 1 auto;
+            padding: 0.8rem;
+            font-size: 1rem;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+
+            .file-upload:focus {
+                border-color: #ff7eb3;
+                outline: none;
+                box-shadow: 0px 4px 10px rgba(255, 117, 140, 0.5);
+            }
+
+
+        .row {
+            margin: 0 auto;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+            .form-group label {
+                font-weight: bold;
+                margin-bottom: 0.5rem;
+                display: block;
+                color: #ff7eb3;
+                word-wrap: break-word;
+                max-width: 100%;
+            }
+
+        .form-control {
+            width: 100%;
+            padding: 0.8rem;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+            .form-control:focus {
+                border-color: #ff7eb3;
+                outline: none;
+                box-shadow: 0px 4px 10px rgba(255, 117, 140, 0.5);
+            }
+
+        input[type="file"] {
+           <!-- width: 100%;-->
+            padding: 0.8rem;
+            font-size: 1rem;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+
+            input[type="file"]:focus {
+                border-color: #ff7eb3;
+                outline: none;
+                box-shadow: 0px 4px 10px rgba(255, 117, 140, 0.5);
+
+            }
+
+        .btn-primary {
+            background: linear-gradient(90deg, #ff758c, #ff7eb3);
+            color: #fff;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.4s ease;
+        }
+
+            .btn-primary:hover {
+                background: linear-gradient(90deg, #ff7eb3, #ff758c);
+                box-shadow: 0px 8px 20px rgba(255, 117, 140, 0.6);
+                transform: scale(1.05);
+            }
+
+        a {
+            color: #ff7eb3;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+            a:hover {
+                color: #ff758c;
+            }
+    </style>
+</head>
+<body>
+    <h1>Dodaj sliku</h1>
+
+    <h4>Galerija</h4>
+    <hr />
+    <div class="row">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="naslov" class="control-label">Naslov</label>
+                <input asp-for="naslov" class="form-control" />
+                <span asp-validation-for="naslov" class="text-danger"></span>
+            </div>
+            <div class="form-group file-upload-container">
+                <label asp-for="DatotekaSlike" class="control-label">Datoteka Slike</label>
+                <input type="file" asp-for="DatotekaSlike" class="form-control file-upload" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Dodaj" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+
+
+    <div>
+        <a asp-action="Index">Povratak</a>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>

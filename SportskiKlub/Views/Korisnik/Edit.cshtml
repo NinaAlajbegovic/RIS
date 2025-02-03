@@ -1,0 +1,158 @@
+﻿@model SportskiKlub.Models.Korisnik
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            <!-- background: linear-gradient(135deg, #1e3c72, #2a5298); -->
+            background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-top: 1rem;
+            color: #ff7eb3;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            margin: 2rem auto;
+        }
+
+        .col-md-4 {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        input.form-control, select.form-control {
+            width: 100%;
+            padding: 0.8rem;
+            margin-top: 0.5rem;
+            border: none;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.2);
+            color: #fff;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+            input.form-control:focus, select.form-control:focus {
+                background: rgba(255, 255, 255, 0.4);
+                box-shadow: 0px 0px 10px #fff;
+            }
+
+        .btn-primary {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background: linear-gradient(90deg, #ff758c, #ff7eb3);
+            color: #fff;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.4s ease;
+        }
+
+            .btn-primary:hover {
+                transform: scale(1.1);
+                background: linear-gradient(90deg, #ff7eb3, #ff758c);
+                box-shadow: 0px 8px 20px rgba(255, 117, 140, 0.6);
+            }
+
+        .text-danger {
+            color: #ff7eb3;
+        }
+
+        a {
+            color: #ff7eb3;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+            a:hover {
+                color: #ff758c;
+            }
+    </style>
+</head>
+<body>
+
+    <h1>Uredi</h1>
+
+    <h4>Korisnik</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="KorisnikID" />
+                <div class="form-group">
+                    <label asp-for="Ime" class="control-label"></label>
+                    <input asp-for="Ime" class="form-control" />
+                    <span asp-validation-for="Ime" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Prezime" class="control-label"></label>
+                    <input asp-for="Prezime" class="form-control" />
+                    <span asp-validation-for="Prezime" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Lozinka" class="control-label"></label>
+                    <input asp-for="Lozinka" class="form-control" />
+                    <span asp-validation-for="Lozinka" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="VrstaKorisnika" class="control-label"></label>
+                    <select asp-for="VrstaKorisnika" class="form-control" asp-items="Html.GetEnumSelectList<VrstaKorisnika>()"></select>
+                    <span asp-validation-for="VrstaKorisnika" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Sačuvaj" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index">Povratak</a>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>

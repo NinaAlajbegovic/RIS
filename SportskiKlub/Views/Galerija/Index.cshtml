@@ -1,0 +1,115 @@
+﻿@model IEnumerable<SportskiKlub.Models.Galerija>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-top: 1rem;
+            color: #ff7eb3;
+        }
+
+        a {
+            color: #ff7eb3;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+            a:hover {
+                color: #ff758c;
+            }
+
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            padding: 2rem;
+            justify-items: center;
+        }
+
+        .gallery-item {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 1rem;
+            text-align: center;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+            max-width: 350px; /* Povećana širina galerijskog bloka */
+        }
+
+            .gallery-item img {
+                width: 100%;
+                height: auto;
+                border-radius: 5px;
+                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+                margin-bottom: 0.5rem;
+            }
+
+        .btn {
+            display: inline-block;
+            padding: 0.2rem 0.6rem;
+            background: linear-gradient(90deg, #ff758c, #ff7eb3);
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            font-size: 0.7rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            margin: 0.2rem;
+        }
+
+            .btn:hover {
+                transform: scale(1.1);
+                background: linear-gradient(90deg, #ff7eb3, #ff758c);
+                box-shadow: 0px 8px 20px rgba(255, 117, 140, 0.6);
+            }
+
+        .btn-container {
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Galerija</h1>
+
+    <p class="btn-container">
+        <a asp-action="Create" class="btn">Dodaj sliku</a>
+    </p>
+
+    <div class="gallery-container">
+        @foreach (var item in Model)
+        {
+            <div class="gallery-item">
+                <img src="@item.naslov" alt="Galerija slika">
+                <div class="btn-container">
+                    @if (User.IsInRole("Administrator"))
+                    {
+
+                        <a asp-action="Details" asp-route-id="@item.GalerijaID" class="btn">Detalji</a>
+                        <a asp-action="Delete" asp-route-id="@item.GalerijaID" class="btn">Obriši</a>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+</body>
+</html>

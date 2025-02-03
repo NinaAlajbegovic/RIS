@@ -1,0 +1,113 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.u-section-1 {
+    padding: 50px 0;
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    color: white;
+    text-align: center;
+}
+
+    .u-section-1 .u-sheet-1 {
+        max-width: 900px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 15px;
+        padding: 30px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+.u-text-1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.u-text-2 {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.u-form-1 {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.u-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.u-btn {
+    display: inline-block;
+    background: #4e54c8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+    .u-btn:hover {
+        background: #8f94fb;
+        transform: scale(1.05);
+    }
+
+/* Scroll Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.u-section-1 .u-text-1,
+.u-section-1 .u-text-2,
+.u-form-1 {
+    animation: fadeInUp 1s ease forwards;
+}
+
+.u-section-1 .u-text-1 {
+    animation-delay: 0.2s;
+}
+
+.u-section-1 .u-text-2 {
+    animation-delay: 0.4s;
+}
+
+.u-form-1 {
+    animation-delay: 0.6s;
+}
+
+/* Scroll-triggered animations using pure CSS */
+section {
+    transform: scale(0.98);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+    section:hover {
+        transform: scale(1);
+        opacity: 1;
+    }
+

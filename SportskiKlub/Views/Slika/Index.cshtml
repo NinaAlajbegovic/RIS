@@ -1,0 +1,41 @@
+﻿@model IEnumerable<SportskiKlub.Models.Slika>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SlikaSadrzaj)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Galerija)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SlikaSadrzaj)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Galerija.GalerijaID)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.SlikaID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.SlikaID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.SlikaID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

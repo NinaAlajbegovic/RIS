@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|c:\\users\\alajb\\source\\repos\\sportskiklub\\sportskiklub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|solutionrelative:sportskiklub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|c:\\users\\alajb\\source\\repos\\sportskiklub\\sportskiklub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|solutionrelative:sportskiklub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|c:\\users\\alajb\\source\\repos\\sportskiklub\\sportskiklub\\controllers\\treningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|solutionrelative:sportskiklub\\controllers\\treningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|c:\\users\\alajb\\source\\repos\\sportskiklub\\sportskiklub\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|solutionrelative:sportskiklub\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|c:\\users\\alajb\\source\\repos\\sportskiklub\\sportskiklub\\views\\korisnik\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|solutionrelative:sportskiklub\\views\\korisnik\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|c:\\users\\alajb\\source\\repos\\sportskiklub\\sportskiklub\\views\\clanarina\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|solutionrelative:sportskiklub\\views\\clanarina\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|c:\\users\\alajb\\source\\repos\\sportskiklub\\sportskiklub\\controllers\\clanarinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|solutionrelative:sportskiklub\\controllers\\clanarinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|c:\\users\\alajb\\source\\repos\\sportskiklub\\sportskiklub\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|solutionrelative:sportskiklub\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|c:\\users\\alajb\\source\\repos\\sportskiklub\\sportskiklub\\areas\\identity\\pages\\account\\accessdenied.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|solutionrelative:sportskiklub\\areas\\identity\\pages\\account\\accessdenied.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|c:\\users\\alajb\\source\\repos\\sportskiklub\\sportskiklub\\areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|solutionrelative:sportskiklub\\areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|c:\\users\\alajb\\source\\repos\\sportskiklub\\sportskiklub\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|solutionrelative:sportskiklub\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|c:\\users\\alajb\\source\\repos\\sportskiklub\\sportskiklub\\controllers\\ocjenacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|solutionrelative:sportskiklub\\controllers\\ocjenacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|c:\\users\\alajb\\source\\repos\\sportskiklub\\sportskiklub\\controllers\\galerijacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|solutionrelative:sportskiklub\\controllers\\galerijacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|c:\\users\\alajb\\source\\repos\\sportskiklub\\sportskiklub\\controllers\\slikacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|solutionrelative:sportskiklub\\controllers\\slikacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|c:\\users\\alajb\\source\\repos\\sportskiklub\\sportskiklub\\models\\slika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|solutionrelative:sportskiklub\\models\\slika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|c:\\users\\alajb\\source\\repos\\sportskiklub\\sportskiklub\\views\\slika\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|solutionrelative:sportskiklub\\views\\slika\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|c:\\users\\alajb\\source\\repos\\sportskiklub\\sportskiklub\\views\\proizvod\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|solutionrelative:sportskiklub\\views\\proizvod\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|c:\\users\\alajb\\source\\repos\\sportskiklub\\sportskiklub\\views\\clanarina\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|solutionrelative:sportskiklub\\views\\clanarina\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|c:\\users\\alajb\\source\\repos\\sportskiklub\\sportskiklub\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|solutionrelative:sportskiklub\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|c:\\users\\alajb\\source\\repos\\sportskiklub\\sportskiklub\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|solutionrelative:sportskiklub\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|c:\\users\\alajb\\source\\repos\\sportskiklub\\sportskiklub\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48299B86-F4C0-41E1-88A6-6B49084F20A4}|SportskiKlub\\SportskiKlub.csproj|solutionrelative:sportskiklub\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\appsettings.json",
+              "RelativeDocumentMoniker": "SportskiKlub\\appsettings.json",
+              "ToolTip": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\appsettings.json",
+              "RelativeToolTip": "SportskiKlub\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-25T18:52:05.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccessDenied.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml.cs",
+              "RelativeDocumentMoniker": "SportskiKlub\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml.cs",
+              "ToolTip": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml.cs",
+              "RelativeToolTip": "SportskiKlub\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T15:50:11.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "SportskiKlub\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "SportskiKlub\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T15:50:06.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Views\\Clanarina\\Index.cshtml",
+              "RelativeDocumentMoniker": "SportskiKlub\\Views\\Clanarina\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Views\\Clanarina\\Index.cshtml",
+              "RelativeToolTip": "SportskiKlub\\Views\\Clanarina\\Index.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAIEAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T16:03:05.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "SportskiKlub\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeToolTip": "SportskiKlub\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T15:50:03.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Program.cs",
+              "RelativeDocumentMoniker": "SportskiKlub\\Program.cs",
+              "ToolTip": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Program.cs",
+              "RelativeToolTip": "SportskiKlub\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T15:06:39.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SportskiKlub\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SportskiKlub\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAEQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T16:02:19.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TreningController.cs",
+              "DocumentMoniker": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Controllers\\TreningController.cs",
+              "RelativeDocumentMoniker": "SportskiKlub\\Controllers\\TreningController.cs",
+              "ToolTip": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Controllers\\TreningController.cs",
+              "RelativeToolTip": "SportskiKlub\\Controllers\\TreningController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T20:17:02.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "SportskiKlub\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "SportskiKlub\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T15:50:17.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Views\\Korisnik\\Index.cshtml",
+              "RelativeDocumentMoniker": "SportskiKlub\\Views\\Korisnik\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Views\\Korisnik\\Index.cshtml",
+              "RelativeToolTip": "SportskiKlub\\Views\\Korisnik\\Index.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T17:24:42.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClanarinaController.cs",
+              "DocumentMoniker": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Controllers\\ClanarinaController.cs",
+              "RelativeDocumentMoniker": "SportskiKlub\\Controllers\\ClanarinaController.cs",
+              "ToolTip": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Controllers\\ClanarinaController.cs",
+              "RelativeToolTip": "SportskiKlub\\Controllers\\ClanarinaController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T13:44:05.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OcjenaController.cs",
+              "DocumentMoniker": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Controllers\\OcjenaController.cs",
+              "RelativeDocumentMoniker": "SportskiKlub\\Controllers\\OcjenaController.cs",
+              "ToolTip": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Controllers\\OcjenaController.cs",
+              "RelativeToolTip": "SportskiKlub\\Controllers\\OcjenaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T13:45:44.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GalerijaController.cs",
+              "DocumentMoniker": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Controllers\\GalerijaController.cs",
+              "RelativeDocumentMoniker": "SportskiKlub\\Controllers\\GalerijaController.cs",
+              "ToolTip": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Controllers\\GalerijaController.cs",
+              "RelativeToolTip": "SportskiKlub\\Controllers\\GalerijaController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T13:45:23.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SlikaController.cs",
+              "DocumentMoniker": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Controllers\\SlikaController.cs",
+              "RelativeDocumentMoniker": "SportskiKlub\\Controllers\\SlikaController.cs",
+              "ToolTip": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Controllers\\SlikaController.cs",
+              "RelativeToolTip": "SportskiKlub\\Controllers\\SlikaController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T13:44:17.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Slika.cs",
+              "DocumentMoniker": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Models\\Slika.cs",
+              "RelativeDocumentMoniker": "SportskiKlub\\Models\\Slika.cs",
+              "ToolTip": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Models\\Slika.cs",
+              "RelativeToolTip": "SportskiKlub\\Models\\Slika.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T13:43:48.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Views\\Slika\\Create.cshtml",
+              "RelativeDocumentMoniker": "SportskiKlub\\Views\\Slika\\Create.cshtml",
+              "ToolTip": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Views\\Slika\\Create.cshtml",
+              "RelativeToolTip": "SportskiKlub\\Views\\Slika\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T13:43:37.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Views\\Proizvod\\Create.cshtml",
+              "RelativeDocumentMoniker": "SportskiKlub\\Views\\Proizvod\\Create.cshtml",
+              "ToolTip": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Views\\Proizvod\\Create.cshtml",
+              "RelativeToolTip": "SportskiKlub\\Views\\Proizvod\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T13:43:06.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Views\\Clanarina\\Create.cshtml",
+              "RelativeDocumentMoniker": "SportskiKlub\\Views\\Clanarina\\Create.cshtml",
+              "ToolTip": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Views\\Clanarina\\Create.cshtml",
+              "RelativeToolTip": "SportskiKlub\\Views\\Clanarina\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T13:42:53.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "SportskiKlub\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "SportskiKlub\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-23T23:48:49.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SportskiKlub\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SportskiKlub\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T23:47:29.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "SportskiKlub\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\alajb\\source\\repos\\SportskiKlub\\SportskiKlub\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "SportskiKlub\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T23:48:23.408Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
